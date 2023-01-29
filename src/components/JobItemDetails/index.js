@@ -97,7 +97,7 @@ class JobItemDetails extends Component {
       <h1>Oops! Something Went Wrong</h1>
       <p>We cannot seem to find the page you are looking for</p>
       <button
-        onClick={this.retryJobItemDetails()}
+        onClick={this.retryJobItemDetails}
         className="btn"
         type="button"
       >
